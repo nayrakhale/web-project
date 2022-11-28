@@ -8,7 +8,9 @@
 
 .special-heading {
     color: #ebeceb;
-
+font-size: 100px;
+text-align: center;
+font-weight: 800;
 }
 /*end components*/
 
