@@ -254,6 +254,10 @@ services .services-content .srv .text {
 .services .services-content .srv .text h3 {
     margin: 0 0 20px;
   }
-
+  .services .services-content .srv .text p {
+    color: #444;
+    font-weight: 300;
+    line-height: 1.6;
+  }
 /*end services*/
 
