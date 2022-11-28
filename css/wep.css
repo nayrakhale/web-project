@@ -66,9 +66,16 @@ font-family:"work sans", sans-serif;
     padding: 20px;
 
 }
-.header.container{
+.header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.container .logo{
+width: 60px;
+
+}
+.header .links{
+position: relative;
 }
 /* End Header */
