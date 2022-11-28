@@ -175,7 +175,11 @@ color :var(--main-color);
 /* End Landing Section */
 /* Start Features */
 
-
+.features{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f6f6f6;
+}
 
 
 
