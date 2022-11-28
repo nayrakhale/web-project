@@ -259,15 +259,18 @@ services .services-content .srv .text {
     font-weight: 300;
     line-height: 1.6;
   }
-  .services .services-content  .image {
+  .services .services-content .image {
     text-align: center;
     position: relative;
   }
-  .services .services-content  .image ::before{
-    content: '';
+  .services .services-content .image ::before{
+    content: "";
+    position: absolute;
+  right: 0;
   }
-  .services .services-content  .image img {
+  .services .services-content .image img {
     width: 260px;
   }
+
 /*end services*/
 
