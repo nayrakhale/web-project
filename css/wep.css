@@ -147,6 +147,22 @@ transation:0.3s;
 .landing{
     background-image: url(../image/landing.jpg);
     background-size: cover;
-    height: calc(100vh-64px);
+    height: calc(100vh - 64px);
+
 }
+.landing .intro-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    
+}
+.landing .intro-text h1{
+margin: 0;
+}
+.landing .intro-text p{
+
+}
+
 /* End Landing Section */
