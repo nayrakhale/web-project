@@ -118,4 +118,13 @@ width: 100%;
 /*display: none;*/
 
 }
+.header .links ul::before {
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #f6f6f6 transparent;
+    position: absolute;
+    right: 5px;
+    top: -20px;
+  }
 /* End Header */
