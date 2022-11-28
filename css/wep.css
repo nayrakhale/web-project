@@ -87,7 +87,7 @@ position: relative;
 .header .links .icon span {
     background-color: #333;
     margin-bottom: 5px;
-
+justify-content: end;
 }
 .header .links .icon span:first-child {
 height: 3px;
