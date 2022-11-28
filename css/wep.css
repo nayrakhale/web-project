@@ -245,5 +245,9 @@ color :var(--main-color);
       text-align: center;
     }
   }
+  .services .services-content .srv i{color: var(--main-color);
+flex-basis: 60px;
+}
+
 /*end services*/
 
