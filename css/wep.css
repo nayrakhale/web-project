@@ -22,8 +22,11 @@ margin: 0;
 }
 @media (max-width: 767px) {
     .special-heading {
-      font-size: 60px;
-    }}
+      font-size: 60px;}
+      .special-heading + p {
+        margin-top: -20px;
+      }
+    }
 /*end components*/
 
 
