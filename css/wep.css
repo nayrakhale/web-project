@@ -248,6 +248,12 @@ color :var(--main-color);
   .services .services-content .srv i{color: var(--main-color);
 flex-basis: 60px;
 }
+services .services-content .srv .text {
+    flex: 1;
+  }
+.services .services-content .srv .text h3 {
+    margin: 0 0 20px;
+  }
 
 /*end services*/
 
