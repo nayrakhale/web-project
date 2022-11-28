@@ -22,7 +22,7 @@ font-family:"work sans", sans-serif;
 
 
 }
-/*end global  rules*/
+
 .parent {
     background-color: #eee;
    
@@ -34,9 +34,6 @@ font-family:"work sans", sans-serif;
     padding-right: 15px;
     margin-left:auto;
     margin-right: auto;
-    
-background-color: #aaa;
-
 }
 /* small*/
 
@@ -62,3 +59,4 @@ background-color: #aaa;
     
 }
 
+/*end global  rules*/
