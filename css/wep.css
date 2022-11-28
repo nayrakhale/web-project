@@ -144,4 +144,9 @@ transation:0.3s;
   }
 /* End Header */
 /* Start Landing Section */
+.landing{
+    background-image: url(../image/landing.jpg);
+    background-size: cover;
+    height: calc(100vh-64px);
+}
 /* End Landing Section */
