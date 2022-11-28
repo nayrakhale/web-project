@@ -236,5 +236,9 @@ color :var(--main-color);
   grid-gap: 30px;
   margin-top: 100px;
 }
+.services .services-content .srv{
+    display: flex;
+    margin-bottom: 40px;
+}
 /*end services*/
 
