@@ -137,5 +137,5 @@ transation:0.3s;
   .header .links ul li a:hover {
     padding-left: 25px;
   }
-
+  .header .links ul li:not(:last-child) a {}
 /* End Header */
