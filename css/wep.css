@@ -1,5 +1,7 @@
 /*Start variabes*/
-
+:root{
+    --main-color:#10cab7;
+}
 
 /*end variables/
 
@@ -148,7 +150,7 @@ transation:0.3s;
     background-image: url(../image/landing.jpg);
     background-size: cover;
     height: calc(100vh - 64px);
-
+position: relative;
 }
 .landing .intro-text{
     position: absolute;
@@ -160,6 +162,9 @@ transation:0.3s;
 }
 .landing .intro-text h1{
 margin: 0;
+font-weight: bold;
+font-size: 50px;
+color :var(--main-color);
 }
 .landing .intro-text p{
 
