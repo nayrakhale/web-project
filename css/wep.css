@@ -167,7 +167,8 @@ font-size: 50px;
 color :var(--main-color);
 }
 .landing .intro-text p{
-
+    font-size: 19px;
+    line-height: 1.8;
 }
 
 /* End Landing Section */
