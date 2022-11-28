@@ -78,4 +78,10 @@ width: 60px;
 .header .links{
 position: relative;
 }
+.header .links .icons{
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 /* End Header */
