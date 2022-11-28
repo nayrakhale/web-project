@@ -78,10 +78,15 @@ width: 60px;
 .header .links{
 position: relative;
 }
-.header .links .icons{
+.header .links .icon{
     width: 30px;
     display: flex;
     flex-wrap: wrap;
-    
+
+}
+.header .links .icon span {
+    background-color: #333;
+    margin-bottom: 5px;
+
 }
 /* End Header */
