@@ -68,5 +68,7 @@ font-family:"work sans", sans-serif;
 }
 .header.container{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 /* End Header */
