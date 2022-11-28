@@ -60,3 +60,13 @@ font-family:"work sans", sans-serif;
 }
 
 /*end global  rules*/
+/*start header*/
+.header{
+
+    padding: 20px;
+
+}
+.header.container{
+    display: flex;
+}
+/* End Header */
