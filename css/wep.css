@@ -273,6 +273,7 @@ services .services-content .srv .text {
   width: 100px;
   height: calc(100% + 100px);
   top: -50px;
+  z-index: -1;
   }
   .services .services-content .image img {
     width: 260px;
