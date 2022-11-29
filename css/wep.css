@@ -2,6 +2,7 @@
 :root{
     --main-color:#10cab7;
     --secondary-color: #2c4755;
+    --section-padding:60px;
 }
 
 /*end variables/
@@ -199,8 +200,8 @@ color :var(--main-color);
 /* Start Features */
 
 .features{
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
     background-color: #f6f6f6;}
     .features .container{
         display: grid;
@@ -226,8 +227,8 @@ color :var(--main-color);
 /* end Features */
 /*start services*/
 .services{  
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding)
 
 
 }
@@ -285,8 +286,8 @@ services .services-content .srv .text {
 }
 }
 .porotofolio{ 
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
     background-color: #f6f6f6;
 
 }
