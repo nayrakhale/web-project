@@ -263,14 +263,20 @@ services .services-content .srv .text {
   .services .services-content .image {
     text-align: center;
     position: relative;
+    background-color: var(--secondary-color);
+    width: 80px;
   }
   .services .services-content .image ::before{
     content: "";
     position: absolute;
   right: 0;
+  width: 100px;
+  height: calc(100% + 100px);
+  top: -50px;
   }
   .services .services-content .image img {
     width: 260px;
+
   }
 
 /*end services*/
