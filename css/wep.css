@@ -3,6 +3,7 @@
     --main-color:#10cab7;
     --secondary-color: #2c4755;
     --section-padding:60px;
+    --section-background:#f6f6f6;
 }
 
 /*end variables/
@@ -136,7 +137,7 @@ width: 100%;
     list-style: none;
     margin: 0;
     padding: 0;
-    background-color: #f6f6f6;
+    background-color: var(--section-background);
     position: absolute;
     right: 0;
     min-width: 200px;
@@ -202,7 +203,7 @@ color :var(--main-color);
 .features{
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    background-color: #f6f6f6;}
+    background-color: var(--section-background);}
     .features .container{
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
@@ -288,7 +289,9 @@ services .services-content .srv .text {
 .porotofolio{ 
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    background-color: #f6f6f6;
+    background-color:var(--section-background) ;
+
+
 
 }
 /*end services*/
